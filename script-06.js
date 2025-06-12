@@ -11,8 +11,8 @@ function usoLoop(){
 function usoFor(){
   let text = "";
    
-  for (let i = 0; i < 10; i++) {
-    text += "<br>O número é " + i;
+  for (let i = 1; i < 100; i++) {
+    text += "<br>O número é " + ((i*2)+1);
   }
  
   document.getElementById("demo").innerHTML = text;
